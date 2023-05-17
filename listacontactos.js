@@ -27,23 +27,26 @@ const nuevocontacto=function(nuevo){
     console.log(contactos);
 };
 nuevocontacto({
-    nombre: "david",
+    nombre: "camilo",
     edad: 34,
     estatura: 35,
     telefono: 2324639683,
     estudios:"ninguno",
-});
+    ubicacion:"cali"
+}
+);
 /*elimina los contactos*/
 const eliminarcontacto = function(eliminar) {
     let elimino = contactos.pop({eliminar});
     console.log(contactos);
 }
 eliminarcontacto({
-    nombre: "david",
+    nombre: "camilo",
     edad: 34,
     estatura: 35,
     telefono: 2324639683,
     estudios:"ninguno",
+    ubicacion:["cali","calle38-81-70"],
 });
 /*presenta los contactos*/
 const contactospresentes = function(){
