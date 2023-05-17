@@ -32,7 +32,7 @@ nuevocontacto({
     estatura: 35,
     telefono: 2324639683,
     estudios:"ninguno",
-    ubicacion:"cali"
+    ubicacion:"cali",
 }
 );
 /*elimina los contactos*/
@@ -46,7 +46,7 @@ eliminarcontacto({
     estatura: 35,
     telefono: 2324639683,
     estudios:"ninguno",
-    ubicacion:["cali","calle38-81-70"],
+    ubicacion:"cali",
 });
 /*presenta los contactos*/
 const contactospresentes = function(){
